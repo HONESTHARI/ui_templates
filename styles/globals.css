@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* color:#121316; */
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+/*  ************************  Paragraphs--> catamaran   *********************** */
+@font-face{
+  font-family: catamaran;
+  src:url(../public/fonts/Catamaran-Medium.ttf)
+
+}
+
+.catamaran{
+  font-family: catamaran;
+}
+
+/*  ************************  Headings & Sub Headings --> PatuaOne   *********************** */
+
+@font-face{
+  font-family: PatuaOne;
+  src:url(../public/fonts/PatuaOne-Regular.ttf)
+
+}
+
+.PatuaOne{
+  font-family: PatuaOne;
+}
+
+.PatuaOne{
+  font-family: PatuaOne;
+}
+
+
+@font-face{
+  font-family: PTSerif;
+  src:url(../public/fonts/PTSerif-Regular.ttf)
+
+}
+
+PTSerif{
+  font-family: PTSerif;
+}
+
+
+p{
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1{
+  font-weight: 500;
+}
+
+button{
+  padding: 0.75rem 1rem;
+}
+
+
+/* ************************ ABOUT US PAGE STYLES ******************* */
+.line_height{
+  line-height: 3.125rem;
+}
